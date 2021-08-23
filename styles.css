@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar__container {
+  height: 40px;
+
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar__container > ul {
+  display: flex;
+  margin-left: 180px;
+  margin-right: 180px;
+  color: white;
+  list-style: none;
+  justify-content: space-between;
+}
+.second__container {
+  font-size: 17px;
+  line-height: 1.47059;
+  height: 30px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  background-color: #fff;
+  color: #1d1d1f;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  margin-left: 26%;
+  margin-top: 10px;
+}
+.flex {
+  align-content: center;
+  width: 100%;
+
+  height: 880px;
+  background-color: #1d1d1f;
+
+  background: url("https://www.apple.com/in/home/images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_medium_2x.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.flex h1 {
+  padding-top: 60px;
+  text-align: center;
+  font-size: xx-large;
+
+  color: black;
+}
+.flex h3 {
+  padding-top: 7px;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+  color: red;
+}
+.flex .h5 {
+  color: gray;
+  margin-top: 5px;
+  text-align: center;
+}
+.flex > ul > a {
+  display: flex;
+  font-size: x-large;
+  text-align: center;
+}
+.link {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.flex2 {
+  align-content: center;
+  width: 100%;
+
+  height: 880px;
+  background-color: #1d1d1f;
+
+  background: url("https://www.apple.com/v/home/ab/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_medium_2x.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.flex2 h1 {
+  padding-top: 60px;
+  text-align: center;
+  font-size: xx-large;
+
+  color: white;
+}
+.flex2 h3 {
+  padding-top: 7px;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+}
+.flex2 .h5p {
+  color: gray;
+  margin-top: 5px;
+  text-align: center;
+}
+.flex2 > ul > a {
+  display: flex;
+  font-size: x-large;
+  text-align: center;
+}
+.link2 {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+/* ipad pro */
+.flex3 {
+  align-content: center;
+  width: 100%;
+
+  height: 880px;
+  background-color: #1d1d1f;
+
+  background: url("https://www.apple.com/v/home/ab/images/heroes/ipad-pro/hero_ipad_pro_non_avail__fcrsmhs4b7ma_medium.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.flex3 h1 {
+  padding-top: 60px;
+  text-align: center;
+  font-size: xx-large;
+
+  color: white;
+}
+.flex3 h3 {
+  padding-top: 7px;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+}
+.flex3 > ul > a {
+  display: flex;
+  font-size: x-large;
+  text-align: center;
+}
+.link3 {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 12px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 12px;
+}
+.div1 > a {
+  display: block;
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.link4 {
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.link5 {
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.link6 {
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.div1 {
+  height: 500px;
+  grid-area: 1 / 1 / 2 / 2;
+  background-image: url("https://www.apple.com/v/home/ab/images/promos/back-to-school-2021/promo_bts__bg3cb4kaoqoi_medium_2x.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.link5 {
+  list-style: none;
+  padding: 2px;
+  display: flex;
+}
+.link6 {
+  padding: 2px;
+  list-style: none;
+  display: flex;
+}
+.div1 h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.div2 h2 {
+  color: #fff;
+  text-align: center;
+}
+.div2 h3 {
+  color: red;
+  text-align: center;
+  padding-top: 10px;
+}
+.div2 h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+.div3 h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.div3 h3 {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+.div4 h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.div4 h3 {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+.div5 h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.div6 h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.div2 {
+  height: 500px;
+  background-image: url("https://www.apple.com/in/home/promos/watch-series-6/images/promo_watch_series_6_lte__f8lrasjnry2y_medium_2x.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  height: 500px;
+  background-image: url("https://www.apple.com/v/home/ab/images/promos/imac/promo_imac__crg641tip4q6_medium_2x.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div4 {
+  height: 500px;
+  background-image: url("https://www.apple.com/v/home/ab/images/promos/airtag/promo_airtag__e6b73a64nno2_medium_2x.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div5 h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+.div5 h2 {
+  padding-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+.div5 h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.div5 {
+  height: 500px;
+  background-image: url("https://www.apple.com/v/home/ab/images/promos/apple-music-spatial-audio/promo_spatial_audio_billie_eilish__ltg83lkpcqq2_medium_2x.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  grid-area: 3 / 1 / 4 / 2;
+}
+.div6 h1 {
+  color: #fff;
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 20px;
+}
+.div6 h2 {
+  padding-top: 30%;
+  color: #fff;
+  text-align: center;
+}
+.div6 h3 {
+  padding-top: 10%;
+  color: #fff;
+  text-align: center;
+}
+.div6 {
+  height: 500px;
+  background-image: url("https://www.apple.com/v/home/ab/images/promos/tv-plus-coda-updated/promo_coda__b4z92qy59piq_medium_2x.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  grid-area: 3 / 2 / 4 / 3;
+}
+/* footer */
+.Footer__container {
+  margin-top: 15px;
+  background-color: #f5f5f7;
+}
+.footer__sec {
+  margin-left: 180px;
+  margin-right: 180px;
+  padding-top: 18px;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+.texts {
+  display: flex;
+}
+.texts > ul {
+  display: flex;
+  list-style: none;
+}
