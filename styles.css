@@ -34,7 +34,6 @@
 .flex {
   align-content: center;
   width: 100%;
-  width: max-content;
   height: 880px;
   background-color: #1d1d1f;
   background: url("https://www.apple.com/in/home/images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_medium_2x.jpg");
@@ -79,7 +78,7 @@ a:link {
 .flex2 {
   align-content: center;
   width: 100%;
-  width: max-content;
+
   height: 880px;
   background-color: #1d1d1f;
 
